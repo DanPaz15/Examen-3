@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h1>Página de: <span class="nombre-cambio">"nombre de ejemplo"</span></h1>
+
+    <div class="contenedor">
+
+        <div class="seccion">
+            <label for="nombre">Ingrese su nombre</label> <input type="text" id="nombre">
+            <button id="cambiar-nombre">Cambiar nombre</button>
+        </div>
+
+        <div class="seccion">
+            <label for="cambiar-color">¿De que color quiere colocar su nombre?</label>
+            <select id="cambiar-color">
+                <option selected disabled>Seleccione una opcion</option>
+                <option value="rojo" class="rojo">Rojo</option>
+                <option value="azul" class="azul">Azul</option>
+                <option value="rosado" class="rosado">Rosado</option>
+            </select>
+        </div>
+
+        <div class="seccion">
+            <p>Mi página de contacto es: <a class="enlace" target="_blank">página</a></p>
+            <label for="enlace">Ingrese su página de contacto para modificar el enlace</label>
+            <input type="text" id="enlace">
+            <button id="cambiar-enlace">Modificar el enlace</button>
+        </div>
+
+        <div class="seccion">
+            <p>La persona <span class="nombre-cambio">"nombre de ejemplo"</span> cuenta con las siguientes cualidades:
+            </p>
+            <ol class="lista">
+                <li>Generosidad</li>
+                <li>Empatia</li>
+                <li>Honestidad</li>
+                <li>Respeto</li>
+                <li>Optimismo</li>
+            </ol>
+            <button id="mostrar-elemento">Mostrar elemento nº3</button>
+        </div>
+
+    </div>
+
+    <script src="java1.js"></script>
+</body>
+
+</html>

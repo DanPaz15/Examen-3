@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.nombre-cambio, a{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+
+/*Si genera algun tipo de error los estilos solo dejar los estilos de azul, rojo y rosado*/
+.azul {
+    color: blue;
+}
+
+.rojo {
+    color: red;
+}
+
+.rosado {
+    color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 1000px;
+    min-width: 100px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    padding: 30px;
+    gap: 30px;
+}
+
+.seccion {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+p, label{
+    font-size: 30px;
+    margin:0;
+}
+
+input, select {
+    height: 40px;
+} 
+
+
+button:hover {
+    cursor: pointer;
+}
